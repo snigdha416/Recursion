@@ -1,0 +1,11 @@
+Write a Python Program to find the LCM of two numbers using recursion
+
+def lcm(x,y,z):
+    if(x*z)%y==0:
+        print(x*z)
+    else:
+        lcm(x,y,z+1)
+    
+a=int(input())
+b=int(input())
+lcm(a,b,1)
