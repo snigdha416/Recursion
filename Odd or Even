@@ -1,0 +1,12 @@
+Write a Program to determine whether a given number is even or odd recursively
+
+def evenorodd(x): 
+    if(x>0):
+        if(x%2==0):
+            print("Even!")
+        else:
+            print("Odd!")
+    
+a=int(input())
+evenorodd(a)
+            
