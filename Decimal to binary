@@ -1,0 +1,10 @@
+Write a program to convert decimal number to binary using recursive function.
+
+def convert(n):
+    if n>0:
+        convert(n//2)
+        print(n%2,end="")
+        
+dec=int(input())
+convert(dec)
+        
